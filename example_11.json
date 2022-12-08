@@ -1,6 +1,6 @@
 {
     "context": {
-        "UnitOfMeasureScale": 1,
+        "UnitOfMeasureScale": 0.01,
         "Zup": false,
         "RepoPath": ""
     },
