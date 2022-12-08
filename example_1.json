@@ -16,7 +16,7 @@
             "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement",
             "representations": [
                 {
-                    "file": "https://github.com/AsemShabayek/DF01/blob/db50339b2555454b1802e325490a51eccc234b6a/GLB%20files/Comau_NJ220.glb",
+                    "file": "https://raw.githubusercontent.com/AsemShabayek/DF01/main/GLB%20files/base_link.glb",
                     "unit": 1
                 }
             ]
