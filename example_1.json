@@ -11,8 +11,8 @@
     ],
     "assets": [
         {
-            "id": "bottle.1",
-            "descr": "bottle",
+            "id": "base_link",
+            "descr": "base_link",
             "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement",
             "representations": [
                 {
