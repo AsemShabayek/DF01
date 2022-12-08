@@ -16,7 +16,7 @@
             "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement",
             "representations": [
                 {
-                    "file": "GLB files/link_1.glb",
+                    "file": "https://github.com/AsemShabayek/DF01/blob/main/GLB%20files/base_link.glb",
                     "unit": 1
                 }
             ]
