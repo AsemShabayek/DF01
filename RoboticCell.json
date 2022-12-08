@@ -2,7 +2,7 @@
     "context": {
         "UnitOfMeasureScale": 0.01,
         "Zup": false,
-        "RepoPath": "repository/models/GLB/"
+        "RepoPath": "https://raw.githubusercontent.com/difactory/repository/main/models/AssemblyLine/GLB/UR_Pick_and_Place_Station.glb"
     },
     "scene": [
         "default_building",
