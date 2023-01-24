@@ -1,0 +1,165 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": true,
+        "RepoPath": ""
+    },
+    "scene": [
+        "KUKA_KR_50_R2500.SLDASM",
+        "KUKA_KR_50_R2500.SLDASM.Base_link",
+        "KUKA_KR_50_R2500.SLDASM.Link_1",
+        "KUKA_KR_50_R2500.SLDASM.Link_2",
+        "KUKA_KR_50_R2500.SLDASM.Link_3",
+        "KUKA_KR_50_R2500.SLDASM.Link_4",
+        "KUKA_KR_50_R2500.SLDASM.Link_5",
+        "KUKA_KR_50_R2500.SLDASM.Link_6"
+    ],
+    "assets": [
+        {
+            "id": "KUKA_KR_50_R2500.SLDASM",
+            "representations": [
+                {
+                    "file": "KUKA_KR50.glb",
+                    "unit": 1
+                }
+            ]
+        },
+        {
+            "id": "KUKA_KR_50_R2500.SLDASM.Base_link",
+            "representations": [
+                {
+                    "file": "KUKA_KR50.glb#base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "KUKA_KR_50_R2500.SLDASM",
+            "parentObject": "KUKA_KR_50_R2500.SLDASM"
+        },
+        {
+            "id": "KUKA_KR_50_R2500.SLDASM.Link_1",
+            "representations": [
+                {
+                    "file": "KUKA_KR50.glb#link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                -0.17,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "KUKA_KR_50_R2500.SLDASM.Base_link",
+            "parentObject": "KUKA_KR_50_R2500.SLDASM.Base_link"
+        },
+        {
+            "id": "KUKA_KR_50_R2500.SLDASM.Link_2",
+            "representations": [
+                {
+                    "file": "KUKA_KR50.glb#link_2",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "KUKA_KR_50_R2500.SLDASM.Link_1",
+            "parentObject": "KUKA_KR_50_R2500.SLDASM.Link_1",
+            "position": [
+                0.175,
+                -0.082438,
+                0.405
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "KUKA_KR_50_R2500.SLDASM.Link_3",
+            "representations": [
+                {
+                    "file": "KUKA_KR50.glb#link_3",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "KUKA_KR_50_R2500.SLDASM.Link_2",
+            "parentObject": "KUKA_KR_50_R2500.SLDASM.Link_2",
+            "position": [
+                0.0,
+                0.0,
+                1.29
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "KUKA_KR_50_R2500.SLDASM.Link_4",
+            "representations": [
+                {
+                    "file": "KUKA_KR50.glb#link_4",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "KUKA_KR_50_R2500.SLDASM.Link_3",
+            "parentObject": "KUKA_KR_50_R2500.SLDASM.Link_3",
+            "position": [
+                0.29457,
+                0.082438,
+                0.05
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "KUKA_KR_50_R2500.SLDASM.Link_5",
+            "representations": [
+                {
+                    "file": "KUKA_KR50.glb#link_5",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "KUKA_KR_50_R2500.SLDASM.Link_4",
+            "parentObject": "KUKA_KR_50_R2500.SLDASM.Link_4",
+            "position": [
+                0.74043,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "KUKA_KR_50_R2500.SLDASM.Link_6",
+            "representations": [
+                {
+                    "file": "KUKA_KR50.glb#link_6",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "KUKA_KR_50_R2500.SLDASM.Link_5",
+            "parentObject": "KUKA_KR_50_R2500.SLDASM.Link_5",
+            "position": [
+                0.12919,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    ]
+}
