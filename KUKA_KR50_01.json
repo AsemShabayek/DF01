@@ -1,0 +1,165 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": true,
+        "RepoPath": ""
+    },
+    "scene": [
+        "Kuka_kr50_01",
+        "Kuka_kr50_01.Base_link",
+        "Kuka_kr50_01.Link_1",
+        "Kuka_kr50_01.Link_2",
+        "Kuka_kr50_01.Link_3",
+        "Kuka_kr50_01.Link_4",
+        "Kuka_kr50_01.Link_5",
+        "Kuka_kr50_01.Link_6"
+    ],
+    "assets": [
+        {
+            "id": "Kuka_kr50_01",
+            "representations": [
+                {
+                    "file": "KUKA_KR50_01.glb",
+                    "unit": 1
+                }
+            ]
+        },
+        {
+            "id": "Kuka_kr50_01.Base_link",
+            "representations": [
+                {
+                    "file": "KUKA_KR50_01.glb#base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Kuka_kr50_01",
+            "parentObject": "Kuka_kr50_01"
+        },
+        {
+            "id": "Kuka_kr50_01.Link_1",
+            "representations": [
+                {
+                    "file": "KUKA_KR50_01.glb#link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.17
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "Kuka_kr50_01.Base_link",
+            "parentObject": "Kuka_kr50_01.Base_link"
+        },
+        {
+            "id": "Kuka_kr50_01.Link_2",
+            "representations": [
+                {
+                    "file": "KUKA_KR50_01.glb#link_2",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Kuka_kr50_01.Link_1",
+            "parentObject": "Kuka_kr50_01.Link_1",
+            "position": [
+                0.175,
+                0.0,
+                0.405
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "Kuka_kr50_01.Link_3",
+            "representations": [
+                {
+                    "file": "KUKA_KR50_01.glb#link_3",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Kuka_kr50_01.Link_2",
+            "parentObject": "Kuka_kr50_01.Link_2",
+            "position": [
+                0.0,
+                0.0,
+                1.29
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "Kuka_kr50_01.Link_4",
+            "representations": [
+                {
+                    "file": "KUKA_KR50_01.glb#link_4",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Kuka_kr50_01.Link_3",
+            "parentObject": "Kuka_kr50_01.Link_3",
+            "position": [
+                0.33902,
+                0.0,
+                0.05
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "Kuka_kr50_01.Link_5",
+            "representations": [
+                {
+                    "file": "KUKA_KR50_01.glb#link_5",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Kuka_kr50_01.Link_4",
+            "parentObject": "Kuka_kr50_01.Link_4",
+            "position": [
+                0.69598,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "Kuka_kr50_01.Link_6",
+            "representations": [
+                {
+                    "file": "KUKA_KR50_01.glb#link_6",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "Kuka_kr50_01.Link_5",
+            "parentObject": "Kuka_kr50_01.Link_5",
+            "position": [
+                0.14561,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    ]
+}
